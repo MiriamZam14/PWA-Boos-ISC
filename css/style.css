@@ -1,5 +1,37 @@
 body {
   margin-top: 105px; }
+.clearfix{
+  clear: both;
+  float: none;
+}
+.container{
+  width: 85%;
+  margin: 0px auto; //centrar un bloque dejo un porcentaje libre
+}
+.subheader{
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  /*cambiamos el color rojo a un rgba con alfa claro
+  podemos usaar la pag hex  color tool y bajamos el alfa*/
+  border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+}
+
+.service, .video{
+  width: 33%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*al hacer esto el encabezado se sube para evitar
+  vamos a crear un div y le aplicamos el clearfix
+  que creamos, para esto creo un div antes de los videos
+  <div clas="claerfix"...></>
+  */
+}
 
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
