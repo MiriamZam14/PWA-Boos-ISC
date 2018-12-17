@@ -70,7 +70,7 @@ var UrlsToCache=[
   './img/ms-icon-150x150.png',
   './img/Romeo 20181212_235617.jpg.jpg',
   './img/android-icon-96x96.png',
-  './img/Sammy 20181212_235622.jpg'
+  './img/Sammy 20181212_235622.jpg',
   './img/20181130_162145.jpg'
 ];
 
